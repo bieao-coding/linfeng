@@ -1,0 +1,131 @@
+.our-title{
+	margin-top: 80px;
+	height:300px;
+	background: url('../img/our-title.png') left top no-repeat;
+	font-size: 40px;
+	font-weight: 900;
+	color:#fff;
+	text-shadow: 5px 5px 5px #080808;
+}
+.our-tabs-cloth{
+	width:100%;
+	border-bottom: 1px solid #ddd;
+}
+.our-tabs{
+	width: 1000px;
+    margin: 0 auto;
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+.our-tabs li{
+	padding: 0 60px;
+
+}
+.our-tabs li a{
+    position: relative;
+    color:#787878;
+    padding: 0 15px;
+}
+.our-tabs li a:after{
+    position: absolute;
+    bottom: -14px;
+    left: 50%;
+    content: "";
+    width: 90%;
+    height: 4px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background-color: #fb8f00;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-transform: translateX(-50%) scaleX(0);
+    -ms-transform: translateX(-50%) scaleX(0);
+    -o-transform: translateX(-50%) scaleX(0);
+}
+.click-our-tabs:after{
+    -webkit-transform: translateX(-50%) scaleX(1) !important;
+    -ms-transform: translateX(-50%) scaleX(1) !important;
+    -o-transform: translateX(-50%) scaleX(1) !important;
+}
+.click-our-tabs{
+    color:#212121 !important
+}
+.company-jianjie{
+	padding: 50px 0;
+}
+.company-details{
+	width:1000px;
+	margin:0 auto;
+	display: flex;
+	justify-content: center;
+}
+.compnay-logo{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 40px;
+}
+.compnay-logo,.compnay-team{
+	width: 400px;
+}
+.compnay-logo img{
+	width: 90%;
+}
+.compnay-team img{
+	width: 100%
+}
+.company-jieshao{
+	width:1000px;
+	margin: 0 auto;
+	padding: 50px 0 0 0;
+	color: #858484;
+	font-size: 1.25rem;
+}
+.company-wenhua{
+	padding: 50px 0;
+	display: none;
+}
+.company-wenhua .company-wenhua-content{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.company-wenhua .company-wenhua-content img{
+	margin:0 40px;
+}
+.company-wenhua .company-wenhua-content img{
+	width: 375px;
+}
+.company-tuandui{
+	padding: 50px 0;
+	display: none;
+}
+.company-tuandui .company-video{
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	padding-bottom: 50px;
+	border-bottom: 1px solid #ddd;
+}
+.company-tuandui .company-video img{
+	position: absolute;
+    top: 39%;
+    left: 46%;
+    cursor: pointer;
+}
+.company-imgs{
+	padding-top: 50px;
+	width: 60%;
+	margin:0 auto;
+}
+.company-imgs img{
+	width:100%;
+}

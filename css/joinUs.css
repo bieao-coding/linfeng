@@ -1,0 +1,57 @@
+.join-us{
+	margin-top: 80px;
+	height:300px;
+	background: #f6f6f6 url('../img/join-us.jpg') center -26px no-repeat;
+}
+.join-info{
+	width: 1000px;
+	margin:0 auto;
+	padding: 50px 0;
+}
+.join-info .join-companyName{
+	color: rgb(251, 143, 0);
+    font-size: 28px;
+    padding: 0 0 20px 0;
+}
+.join-info .join-fenge{
+	height:10px;
+	background: url('../img/fenge.png') center center no-repeat;
+}
+.join-info .join-connection{
+	display: flex;
+	padding: 30px 0;
+}
+.info-left,.info-right{
+	flex:1;
+}
+.join-info .info-right{
+	border:none;
+	padding:0 0 0 80px;
+}
+.info-left div,.info-right div{
+	padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.join-info .join-common{
+	width:25px;
+	height:25px;
+	display: block;
+	margin-right: 30px;
+}
+.join-info .join-address{
+	background:  url('../img/address.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.join-info .join-tel{
+	background:  url('../img/tel.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.join-info .join-net{
+	background:  url('../img/net.png') center center no-repeat;
+	background-size: 100% 100%;
+}
+.join-info .join-email{
+	background:  url('../img/email.png') center center no-repeat;
+	background-size: 100% 100%;	
+}
