@@ -90,15 +90,21 @@
 	padding: 15px;
 }
 .main ul li a{
-	color: #fff;
+  color: #fff;
   cursor: default;
 }
 .main ul li:before{
-	content: "";
+  content: "";
   display: inline-block;
   width: 10px;
   height: 10px;
   background-color: #fb8f00;
   border-radius: 50%;
   margin-right: 20px;
+}
+.copyright .beian{
+    margin-top: 10px;
+}
+.copyright .beian a{
+    text-decoration: none;
 }
